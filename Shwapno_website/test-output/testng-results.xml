@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //select[@id='state']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //select[@id='city']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //input[@id='btnFindStore']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //a[@href='https://www.shwapno.com/Registration/Login.aspx?ReturnUrl=https://www.shwapno.com']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //a[contains(text(),'Login with Email')]//ancestor::li]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //input[@placeholder='Enter your Email' and @name ='UserName']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //input[@placeholder='Enter your Password' and @name ='Password']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //input[@value='Login' and @name ='btnloginSubmit']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //input[@id='txtSearch' and @placeholder='Search']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //input[@id='btnSearch' and @class='mj_btnbg FormSectionDefaultButton']/ancestor::div[@class='searchbutton']]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //img[@title='Parachute Coconut Oil 500ml']/ancestor::a[1]]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //a[@class='btn_addqty' and contains(text(),'Add to Cart')]]]>
+    </line>
+    <line>
+      <![CDATA[clickable locator foundBy.xpath: //a[@id='lnkLogout1' and contains(text(),Logout)]]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35872" started-at="2021-08-27T13:12:27 BDT" finished-at="2021-08-27T13:13:03 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35872" started-at="2021-08-27T13:12:27 BDT" finished-at="2021-08-27T13:13:03 BDT">
+      <class name="com.testClasses.ShwapnoPopUpWindow">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:com.testClasses.ShwapnoPopUpWindow@57e1b0c]" name="initiateDriver" is-config="true" duration-ms="7457" started-at="2021-08-27T13:12:27 BDT" finished-at="2021-08-27T13:12:35 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="selectDeliveryLocation()[pri:1, instance:com.testClasses.ShwapnoPopUpWindow@57e1b0c]" name="selectDeliveryLocation" duration-ms="4967" started-at="2021-08-27T13:12:35 BDT" finished-at="2021-08-27T13:12:40 BDT">
+          <reporter-output>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //select[@id='state']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //select[@id='city']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //input[@id='btnFindStore']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectDeliveryLocation -->
+        <test-method status="PASS" signature="shwapnoLogin()[pri:2, instance:com.testClasses.ShwapnoPopUpWindow@57e1b0c]" name="shwapnoLogin" duration-ms="18810" started-at="2021-08-27T13:12:40 BDT" finished-at="2021-08-27T13:12:59 BDT">
+          <reporter-output>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //a[@href='https://www.shwapno.com/Registration/Login.aspx?ReturnUrl=https://www.shwapno.com']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //a[contains(text(),'Login with Email')]//ancestor::li]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //input[@placeholder='Enter your Email' and @name ='UserName']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //input[@placeholder='Enter your Password' and @name ='Password']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //input[@value='Login' and @name ='btnloginSubmit']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //input[@id='txtSearch' and @placeholder='Search']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //input[@id='btnSearch' and @class='mj_btnbg FormSectionDefaultButton']/ancestor::div[@class='searchbutton']]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //img[@title='Parachute Coconut Oil 500ml']/ancestor::a[1]]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //a[@class='btn_addqty' and contains(text(),'Add to Cart')]]]>
+            </line>
+            <line>
+              <![CDATA[clickable locator foundBy.xpath: //a[@id='lnkLogout1' and contains(text(),Logout)]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shwapnoLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testClasses.ShwapnoPopUpWindow@57e1b0c]" name="closeBrowser" is-config="true" duration-ms="4584" started-at="2021-08-27T13:12:59 BDT" finished-at="2021-08-27T13:13:03 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testClasses.ShwapnoPopUpWindow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

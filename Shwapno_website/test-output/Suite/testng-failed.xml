@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Functional Test1(failed)">
+    <classes>
+      <class name="com.testClasses.ShwapnoLogin">
+        <methods>
+          <include name="pSearchAndSelect"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testClasses.ShwapnoLogin -->
+    </classes>
+  </test> <!-- Functional Test1(failed) -->
+  <test thread-count="5" name="Functional Test2(failed)">
+    <classes>
+      <class name="com.testClasses.ProductSearchAndSelect">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="productSelect"/>
+        </methods>
+      </class> <!-- com.testClasses.ProductSearchAndSelect -->
+    </classes>
+  </test> <!-- Functional Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
